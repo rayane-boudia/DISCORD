@@ -1,0 +1,80 @@
+body{
+    background-image:url(/DISCORD/IMG/snow\ village\ wallpaper.jpg);
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    /* background-color: aqua; */
+    /* position: absolute; */
+    width: 100%;
+    height:80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    /* background-color: rgb(182, 82, 106); */
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.part2 ul{
+    /* background-color: rgb(134, 72, 234); */
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part3{
+    /* background-color: rgb(182, 82, 106); */
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.discord-logo{
+    height: 40px;
+    cursor: pointer;
+}
+
+.part2 ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.part2 ul a:hover{
+    text-decoration:underline;
+}
+
+.Open-button{
+    border: none;
+    color: rgb(14, 14, 75);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 12px 14px 12px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.Open-button:hover{
+    color: rgb(0, 179, 255);
+    box-shadow: 0px 5px 10px rgba(98, 76, 239, 0.764);
+}

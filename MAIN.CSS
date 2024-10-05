@@ -1,0 +1,68 @@
+main{
+    margin-top: 100px;
+    height: 4000px;
+}
+
+.cube-one{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    POINTER-EVENTS : NONE ;
+}
+.discord-dif{
+    /* background-color: rgb(240, 248, 255); */
+    color: rgb(151, 205, 252);
+    width: 350px;
+    font-family: Protest Strike;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    cursor:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 24"><path fill="%23D643FF" stroke="%23EEFFFE" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>') 4 4,auto;
+}
+
+.discord-dif h1{
+    transition: all 0.5s;
+    pointer-events: visible;
+}
+
+.discord-dif h1:hover{
+    color: cadetblue;
+}
+
+.discord-dif p{
+    font-size: 20px;
+    color: antiquewhite;
+    cursor:auto;
+}
+
+.discord-img{
+    height: 550px;
+}
+
+.box-two{
+    /* background-color: aqua; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Download-btn,
+.Open-browser-btn{
+    background-color: navy;
+    color:rgb(202, 202, 247);
+    border: none;
+    font-size: 25px;
+    border-radius:25px;
+    padding: 10px;
+    cursor:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="%23D643FF" stroke="%23EEFFFE" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>') 4 4,auto;
+    transition: all 0.8s;
+}
+
+.Download-btn:hover,
+.Open-browser-btn:hover{
+    background-color: rgb(202, 202, 247);
+    color:navy
+}
